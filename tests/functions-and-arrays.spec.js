@@ -11,7 +11,7 @@ function shuffle(currentArray) {
   }
   return array;
 }
-
+// Progression #1: Greatest of the two numbers
 describe('Find the greatest number', () => {
   it('should create a function named greatestOfTwoNumbers', () => {
     expect(typeof greatestOfTwoNumbers).toBe('function');
@@ -32,6 +32,7 @@ describe('Find the greatest number', () => {
   });
 });
 
+// Progression #2: The lengthy word
 describe('Find the scary word', () => {
   it('should create a function named findScaryWord', () => {
     expect(typeof findScaryWord).toBe('function');
@@ -59,6 +60,7 @@ describe('Find the scary word', () => {
   });
 });
 
+// Progression #3: Net Price
 describe('Calculate the sum of array of numbers', () => {
   it('should create a function named netPrice', () => {
     expect(typeof netPrice).toBe('function');
@@ -81,6 +83,7 @@ describe('Calculate the sum of array of numbers', () => {
   });
 });
 
+//Bonus: 3.1 Calculate the sum
 describe('Bonus: Calculate the sum', () => {
   it('should create a function named add', () => {
     expect(typeof add).toBe('function');
@@ -124,6 +127,8 @@ describe('Bonus: Calculate the sum', () => {
   });
 });
 
+// Progression #4: Calculate the average
+// Progression 4.1: Array of numbers
 describe('Calculate the average of an array of numbers', () => {
   it('should create a function named midPointOfLevels', () => {
     expect(typeof midPointOfLevels).toBe('function');
@@ -149,6 +154,7 @@ describe('Calculate the average of an array of numbers', () => {
   });
 });
 
+// Progression 4.2: Array of strings
 describe('Calculate the average of an array of strings', () => {
   it('should create a function named averageWordLength', () => {
     expect(typeof averageWordLength).toBe('function');
